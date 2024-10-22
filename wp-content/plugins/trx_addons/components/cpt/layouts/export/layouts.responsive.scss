@@ -1,0 +1,73 @@
+/* ATTENTION! This file was generated automatically! Don't change it!!!
+----------------------------------------------------------------------- */
+@import "../../../../css/_mixins.scss";
+@import "../../../../css/_trx_addons.vars.scss";
+@import "../../../../components/cpt/layouts/_layouts.responsive.scss";
+@import "../../../../components/cpt/layouts/shortcodes/cart/_cart.responsive.scss";
+@import "../../../../components/cpt/layouts/shortcodes/logo/_logo.responsive.scss";
+@import "../../../../components/cpt/layouts/shortcodes/menu/_menu.responsive.scss";
+
+
+/* SASS Suffix: --desktop */
+@media (min-width: 1680px) {
+	@include layouts--desktop();
+}
+
+
+/* SASS Suffix: --notebook */
+@media (min-width: 1280px) and (max-width: 1679px) {
+	@include layouts--notebook();
+}
+
+
+/* SASS Suffix: --tablet */
+@media (min-width: 768px) and (max-width: 1279px) {
+	@include layouts--tablet();
+}
+
+
+/* SASS Suffix: --mobile */
+@media (max-width: 767px) {
+	@include layouts--mobile();
+}
+
+
+/* SASS Suffix: --xl */
+@media (max-width: 1439px) {
+	@include layouts--xl();
+	@include layouts_logo--xl();
+}
+
+
+/* SASS Suffix: --lg */
+@media (max-width: 1279px) {
+	@include layouts--lg();
+	@include layouts_menu--lg();
+}
+
+
+/* SASS Suffix: --md */
+@media (max-width: 1023px) {
+	@include layouts--md();
+	@include layouts_menu--md();
+}
+
+
+/* SASS Suffix: --sm */
+@media (max-width: 767px) {
+	@include layouts--sm();
+	@include layouts_cart--sm();
+	@include layouts_menu--sm();
+}
+
+
+/* SASS Suffix: --sm_wp */
+@media (max-width: 600px) {
+	@include layouts_cart--sm_wp();
+}
+
+
+/* SASS Suffix: --xs */
+@media (max-width: 479px) {
+	@include layouts--xs();
+}

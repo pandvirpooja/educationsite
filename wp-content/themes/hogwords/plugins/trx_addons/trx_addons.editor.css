@@ -1,0 +1,53 @@
+/* Theme-specific rules for the WP Editor */
+
+.trx_addons_dropcap{
+    font-weight: 600;
+    font-size: 3em;
+    width: 1.7em;
+    height: 1.7em;
+    line-height: 1.7em;
+    margin: 0.13em 0.4em 0 0;
+}
+.trx_addons_dropcap_style_2 {
+    background: transparent;
+    font-size: 4.25em;
+    width: 1.4em;
+    height: 1.2em;
+    line-height: 1.15;
+    margin-right: 0.055em;
+    border-radius: 0;
+}
+ul[class*="trx_addons_list_custom"] > li:before{
+    content:'';
+    width: 8px;
+    border-radius: 50%;
+    height: 8px;
+    top: 12px;
+}
+
+/* breadcrumbs */
+
+.breadcrumbs {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.breadcrumbs .breadcrumbs_delimiter {
+    margin: 0 1.4em;
+}
+
+.breadcrumbs .breadcrumbs_delimiter:before {
+    content:'\e836';
+    font-family: 'fontello';
+}
+
+.widget_area .post_item .post_info .post_info_item + .post_info_item:before{
+    display: none;
+}
+
+/* socials share */
+
+.socials_share.socials_type_drop .social_items {
+    max-width: 13em;
+}

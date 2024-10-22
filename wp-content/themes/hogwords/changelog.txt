@@ -1,0 +1,117 @@
+Version 1.2.6
+    Added:
+    - WP 6.3.1 compatibility
+    - TikTok Icons
+
+    Fixed:
+    - Improve theme styles
+    - Update plugins to their latest version
+    - Scripts libraries are updated
+
+    Changed:
+    - Update demo data
+
+Version 1.2.5
+	Added:
+		- WP 6.1.1 compatibility
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+	
+	Removed:
+		- ThemeREX Socials plugin
+
+Version 1.2.4
+    Added:
+        - Compatibility with WP 6.1
+        - Compatibility with YITH WooCommerce Compare
+        - Compatibility with YITH WooCommerce Wishlist
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+
+    Changed:
+        - Update demo data
+
+Version 1.2.3
+    Added:
+        - Compatibility with WP 6.0
+        - Compatibility with Instagram Feed plugin
+
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+
+    Changed:
+        - Update demo data
+
+Version 1.2.2
+    Added:
+        - Compatibility with WP 5.8.2
+       	- Compatibility with PHP 8
+        - Compatibility with ThemeREX Socials plugin
+
+    Removed:
+         - Compatibility with Instagram Feed plugin
+
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+
+    Changed:
+        - Update demo data
+
+Version 1.2.1
+    Added:
+        - Compatibility with WP 5.3.2
+       	- Compatibility with ThemeREX Updater
+       	- Compatibility with elegro Crypto Payment
+
+    Fixed:
+        - Update plugins to their latest versions
+
+    Changed:
+        - Update demo data
+
+
+Version 1.2.0
+    Added:
+        - Compatibility with WP 5.2.2
+        - Compatibility with PHP7.3
+
+    Fixed:
+        - Update plugins to their latest versions
+
+    Changed:
+        - Update demo data
+
+Version 1.1.1
+    Fixed:
+    - Scripts libraries updated
+    - Compatibility with PHP7.2
+    - Update plugins to their latest versions
+
+Version 1.1
+    Added:
+        - Compatibility with WP 5.0.3
+        - Contact Form 7
+        - Alert to Demo data installation
+        - Privacy Policy page
+
+    Fixed:
+        - Compatibility with Gutenberg and other PageBuilders
+        - Update plugins to their latest versions
+        - Improve theme styles
+        - Style The Events Calendar
+        - Search page
+
+    Changed:
+        - Update default contact forms to make them GDPR-compliant
+        - Update demo data
+
+
+Version 1.0.0
+	Release

@@ -1,0 +1,147 @@
+/* ATTENTION! This file was generated automatically! Don't change it!!!
+----------------------------------------------------------------------- */
+@import "../css/_mixins.scss";
+@import "../css/_trx_addons.vars.scss";
+@import "../css/_trx_addons.responsive.scss";
+@import "../components/shortcodes/_shortcodes.responsive.scss";
+@import "../components/api/js_composer/_js_composer.responsive.scss";
+@import "../components/cpt/courses/_courses.responsive.scss";
+@import "../components/cpt/layouts/_layouts.responsive.scss";
+@import "../components/cpt/services/_services.responsive.scss";
+@import "../components/cpt/team/_team.responsive.scss";
+@import "../components/shortcodes/action/_action.responsive.scss";
+@import "../components/shortcodes/blogger/_blogger.responsive.scss";
+@import "../components/shortcodes/content/_content.responsive.scss";
+@import "../components/shortcodes/form/_form.responsive.scss";
+@import "../components/shortcodes/googlemap/_googlemap.responsive.scss";
+@import "../components/shortcodes/icons/_icons.responsive.scss";
+@import "../components/shortcodes/price/_price.responsive.scss";
+@import "../components/shortcodes/promo/_promo.responsive.scss";
+@import "../components/shortcodes/skills/_skills.responsive.scss";
+@import "../components/shortcodes/socials/_socials.responsive.scss";
+@import "../components/widgets/slider/_slider.responsive.scss";
+@import "../components/cpt/layouts/shortcodes/cart/_cart.responsive.scss";
+@import "../components/cpt/layouts/shortcodes/logo/_logo.responsive.scss";
+@import "../components/cpt/layouts/shortcodes/menu/_menu.responsive.scss";
+
+
+/* SASS Suffix: --desktop */
+@media (min-width: 1680px) {
+	@include layouts--desktop();
+}
+
+
+/* SASS Suffix: --notebook */
+@media (min-width: 1280px) and (max-width: 1679px) {
+	@include layouts--notebook();
+}
+
+
+/* SASS Suffix: --tablet */
+@media (min-width: 768px) and (max-width: 1279px) {
+	@include sc--tablet();
+	@include layouts--tablet();
+}
+
+
+/* SASS Suffix: --mobile */
+@media (max-width: 767px) {
+	@include sc--mobile();
+	@include layouts--mobile();
+}
+
+
+/* SASS Suffix: --xl */
+@media (max-width: 1439px) {
+	@include trx_addons--xl();
+	@include sc--xl();
+	@include layouts--xl();
+	@include sc_services--xl();
+	@include sc_team--xl();
+	@include sc_blogger--xl();
+	@include sc_content--xl();
+	@include sc_promo--xl();
+	@include layouts_logo--xl();
+}
+
+
+/* SASS Suffix: --lg */
+@media (max-width: 1279px) {
+	@include trx_addons--lg();
+	@include layouts--lg();
+	@include sc_blogger--lg();
+	@include sc_content--lg();
+	@include sc_icons--lg();
+	@include sc_promo--lg();
+	@include slider--lg();
+	@include layouts_menu--lg();
+}
+
+
+/* SASS Suffix: --md */
+@media (max-width: 1023px) {
+	@include trx_addons--md();
+	@include sc--md();
+	@include js_composer--md();
+	@include sc_courses--md();
+	@include layouts--md();
+	@include sc_services--md();
+	@include sc_team--md();
+	@include sc_blogger--md();
+	@include sc_content--md();
+	@include sc_googlemap--md();
+	@include sc_price--md();
+	@include sc_promo--md();
+	@include sc_skills--md();
+	@include slider--md();
+	@include layouts_menu--md();
+}
+
+
+/* SASS Suffix: --sm */
+@media (max-width: 767px) {
+	@include trx_addons--sm();
+	@include sc--sm();
+	@include js_composer--sm();
+	@include sc_courses--sm();
+	@include layouts--sm();
+	@include sc_services--sm();
+	@include sc_team--sm();
+	@include sc_blogger--sm();
+	@include sc_content--sm();
+	@include sc_form--sm();
+	@include sc_promo--sm();
+	@include sc_socials--sm();
+	@include slider--sm();
+	@include layouts_cart--sm();
+	@include layouts_menu--sm();
+}
+
+
+/* SASS Suffix: --sm_wp */
+@media (max-width: 600px) {
+	@include layouts_cart--sm_wp();
+}
+
+
+/* SASS Suffix: --xs */
+@media (max-width: 479px) {
+	@include trx_addons--xs();
+	@include sc--xs();
+	@include layouts--xs();
+	@include sc_services--xs();
+	@include sc_team--xs();
+	@include sc_action--xs();
+	@include sc_content--xs();
+	@include sc_form--xs();
+	@include sc_price--xs();
+	@include sc_promo--xs();
+	@include sc_skills--xs();
+	@include slider--xs();
+}
+
+
+/* SASS Suffix: --md_lg */
+@media (min-width: 768px) and (max-width: 1279px) {
+	@include js_composer--md_lg();
+}
